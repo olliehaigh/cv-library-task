@@ -34,7 +34,7 @@ body {
     color: #525252;
 }
 
-#location.searchbar {
+#location-search.searchbar {
     display:inline-block;
     width: 400px;
 }
@@ -218,3 +218,5 @@ ul {
     }
     }
   }
+
+  

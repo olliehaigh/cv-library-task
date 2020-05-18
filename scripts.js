@@ -1,3 +1,6 @@
+
+// Footer tabs section
+
 function openTab(evt, tabName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("tab");
