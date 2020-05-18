@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.cv-library.co.uk/favicon-32x32.png?v=2.0" sizes="32x32">
+
+    <script src="scripts.js"></script>
+    <script src="https://api.cv-library.co.uk/v1/locations"></script>
+    <title>CV Library</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="main-logo">
+            <img src="images/cv-library-logo.png">
+        </div>
+        <div>
+            <div class="searchbar" id="keywords">
+                <p>Keywords / Job Title / Job Ref</p>
+                <input type="text" placeholder="e.g. Sales Executive">
+            </div>
+        </div>
+        <div class="second">
+            <div class="searchbar" id="location">
+                <p>Location</p>
+                <input type="text" placeholder="e.g. town or postcode">
+            </div>
+            <div id="distance">
+                <p>Distance</p>
+                <select class="select-css">
+                    <option>5 miles</option>
+                    <option>10 miles</option>
+                    <option selected>15 miles</option>
+                    <option>20 miles</option>
+                    <option>25 miles</option>
+                </select>
+            </div>
+        </div>
+        <div class="padding30">
+            <div class="button" id="submit">
+                <input type="submit" value="Find jobs now">
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <section class="tab-section">
+            <div>
+                <div class="container">
+                    <div class="bar bar-darkblue tabs">
+                        <button class="tablink active-blue" onclick="openTab(event,'Location')">Jobs by
+                            Location</button>
+                        <button class="tablink" onclick="openTab(event,'Industry')">Jobs by
+                            Industry</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="background-blue">
+            <div>
+                <div class="container">
+                    <div class="lists">
+                        <div id="Location" class="w3-container w3-border tab">
+                            <div>
+                                <ul>
+                                    <li>Aberdeen</li>
+                                    <li>Basingstoke</li>
+                                    <li>Berkshire</li>
+                                    <li>Birmingham</li>
+                                    <li>Bradford</li>
+                                    <li>Bristol</li>
+                                    <li>Derby</li>
+                                    <li>Doncaster</li>
+                                    <li>Edinbrugh</li>
+                                    <li>Essex</li>
+                                    <li>Exeter</li>
+                                    <li>Glasgow</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="Industry" class="w3-container w3-border tab" style="display:none">
+                            <div>
+                                <ul>
+                                    <li>Accounting</li>
+                                    <li>Administration</li>
+                                    <li>Agriculture</li>
+                                    <li>Arts</li>
+                                    <li>Automotive</li>
+                                    <li>Catering</li>
+                                    <li>Distribution</li>
+                                    <li>Driving</li>
+                                    <li>Education</li>
+                                    <li>Electronics</li>
+                                    <li>Engineering</li>
+                                    <li>Financial Services</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
