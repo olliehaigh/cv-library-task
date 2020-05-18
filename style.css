@@ -131,12 +131,13 @@ body {
 }
 
 .footer {
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 .tab-section {
-    padding-top: 5em;
+    
 }
 
 .tabs {
