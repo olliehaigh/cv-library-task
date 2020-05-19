@@ -16,8 +16,7 @@ function openTab(evt, tabName) {
 
 // Autocomplete functionalitiy
 
-function autocomplete(inp
-) {
+function autocomplete(inp) {
 
   var currentFocus;
   inp.addEventListener("input", function (e) {
