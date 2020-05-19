@@ -8,7 +8,7 @@ To access the files please click the 'Clone or download' button and then 'Downlo
 
 The files contain all of the HTML, CSS and JavaScript used on this task. There was no use of CSS or JS frameworks and the JS is Vanilla.
 
-For the API portion of the task, there was a lot of trial and error to link up the autocomplete feature and the data for the API. With a lot of googling, videos, reading and trying different techniques, I managed to achieve the end goal. Here is the snippet of JavaScript used to complete the API challenge:
+For the API portion of the task, there was a lot of trial and error to link up the autocomplete feature and the location data for the API. With a lot of googling, videos, reading and trying different techniques, I managed to achieve the end goal. Here is the snippet of JavaScript used to complete the API challenge:
 
 ```javascript
 function autocomplete(inp
